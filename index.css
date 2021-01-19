@@ -53,22 +53,7 @@ body {
     color:var(--first-color-dark);
     font-weight: var(--font-semi-bold);
   }
-  @media screen and (min-width: 576px){
-    .about__container, .services__container, .portfolio__container{
-      grid-template-columns: repeat(2,1fr);
-    }
-    @media screen and (min-width: 769px){
-        .portfolio__container{
-        grid-template-columns: repeat(3,1fr); 
-       }
-       .project__container{
-         padding:4.5rem 0;
-       }
-       @media screen and (min-width: 576px){
-   
-        .about__container, .services__container, .portfolio__container{
-          grid-template-columns: repeat(2,1fr);
-        }
+  
   
 #loading {
     width: 100vw;
